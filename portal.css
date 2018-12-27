@@ -1,5 +1,5 @@
 body{
-    background-color: #FFDCE9;
+   background-image: linear-gradient(to bottom right, #115DF3, #FF26A3, #FF8831);
 }
 .container.signin-container{
     margin-top: 8%;
