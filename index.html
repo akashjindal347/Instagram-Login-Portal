@@ -8,6 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!--  Make sure your always using the latest version of Bootstrap here-->
   <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="portal.css">
@@ -20,15 +21,20 @@
       <div class="col-sm-12 col-md-8">
         <div class="card signin-card">
           <div class="card-block">
-            <img src="img/2000px-Instagram_logo_2016.svg.png" class="img-fluid signin-img">
+            <img src="img/instagram.png" class="img-fluid signin-img">
+              <button class="btn btn2 btn-primary"><span style="margin-right: 20px; padding-left: 10px;"> Log in with     </span>   <i class="fab fa-facebook-f"></i></button>
+              <p style="text-align: center;">OR</p>
             <form class="sigin-form">
-              <div class="form-group">
+                 <div class="form-group">
                 <input type="email" class="form-control" id="emailInput" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="emailInput" placeholder="Full Name">
               </div>
               <div class="form-group">
                 <input type="password" class="form-control" id="passwordInput" placeholder="Password">
               </div>
-              <button type="button" class="btn signin-btn btn-lg">Sign In</button>
+              <button type="button" class="btn btn-primary signin-btn btn-lg">Sign Up</button>
                 <div class="form-check">
                 <label class="form-check-label">
                   <input class="form-check-input" type="checkbox"> Remember me<a href="#"> Need Help?</a></label>
@@ -36,7 +42,7 @@
             </form>
           </div>
         </div>
-           <a href="#" class="create-new-account">Create New Account</a>
+           <a href="#" class="create-new-account">Log in</a>
         
       </div>
       <div class="col"></div>
